@@ -53,4 +53,4 @@ def perfil():
     return jsonify({"message": "Ruta protegida (no autenticada aún, solo ejemplo)"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
